@@ -1,0 +1,377 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2010-09-29 13:10+CEST\n"
+"Last-Translator: Lennart Christiansen <lennart.christiansen@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: gmail-backup-gui.py:148
+msgid "Gmail Backup"
+msgstr "Gmail Backup"
+
+#: gmail-backup-gui.py:149
+msgid "(%.1f%%) Gmail Backup"
+msgstr "(%.1f%%) Gmail Backup"
+
+#: gmail-backup-gui.py:163
+msgid "revision %s (%s)"
+msgstr "revision %s (%s)"
+
+#: gmail-backup-gui.py:165
+msgid ""
+"Gmail login:\n"
+"(full email address)"
+msgstr ""
+"Gmail login:\n"
+"(fuld e-mail adresse)"
+
+#: gmail-backup-gui.py:168
+msgid "Gmail password:"
+msgstr "Gmail password:"
+
+#: gmail-backup-gui.py:171
+msgid "Backup folder:"
+msgstr "Backup mappe:"
+
+#: gmail-backup-gui.py:174
+msgid ""
+"You can use following forms:\n"
+"  directory\n"
+"  filename.zip\n"
+"  directory#template\n"
+"  filename.zip#template\n"
+"\n"
+"In the template you can use following variables, which will be substituted "
+"with values in the stored message:\n"
+"  $YEAR, $MONTH, $DAY\n"
+"  $HOUR, $MINUTE, $SECOND\n"
+"  $FROM, $SUBJ\n"
+"\n"
+"You can write them either as $YEAR or ${YEAR}."
+msgstr ""
+"Du kan bruge de følgende metoder:\n"
+"  directory\n"
+"  filename.zip\n"
+"  directory#template\n"
+"  filename.zip#template\n"
+"\n"
+"I denne skabelon, kan du bruge følgende variabler, der derefter bliver "
+"udskiftet med den reelle værdi i de gemte beskeder:\n"
+"  $YEAR, $MONTH, $DAY\n"
+"  $HOUR, $MINUTE, $SECOND\n"
+"  $FROM, $SUBJ\n"
+"\n"
+"Du kan skrive dem som enten $YEAR eller ${YEAR}."
+
+#: gmail-backup-gui.py:186
+msgid "&Directory"
+msgstr "&Directory"
+
+#: gmail-backup-gui.py:189
+msgid ""
+"Newest\n"
+"emails\n"
+"only"
+msgstr ""
+"Kun de\n"
+"nyeste \n"
+"e-mails"
+
+#: gmail-backup-gui.py:191
+msgid "Newest emails only"
+msgstr "Kun de nyeste e-mails"
+
+#: gmail-backup-gui.py:194
+msgid "Since date:"
+msgstr "Før datoen:"
+
+#: gmail-backup-gui.py:198
+msgid "Before date:"
+msgstr "Efter datoen:"
+
+#: gmail-backup-gui.py:210
+msgid "&Backup"
+msgstr "&Backup"
+
+#: gmail-backup-gui.py:211
+msgid "&Restore"
+msgstr "&Genetabler"
+
+#: gmail-backup-gui.py:212
+msgid "Stop"
+msgstr "Stop"
+
+#: gmail-backup-gui.py:216
+msgid "New Versions"
+msgstr "Opdatering"
+
+#: gmail-backup-gui.py:217
+msgid "Quit"
+msgstr "Afslut"
+
+#: gmail-backup-gui.py:392
+msgid "Enter valid email adress which you want to backup.\n"
+msgstr ""
+"Indtast den gyldige e-mail adresse på den e-mail du vil lave backup af.\n"
+
+#: gmail-backup-gui.py:394
+msgid "Enter valid password for your gmail account.\n"
+msgstr "Indtast den korrekte adgangskode til din Gmail konto.\n"
+
+#: gmail-backup-gui.py:396
+msgid "Enter folder where you want to store your emails.\n"
+msgstr "Vælg den mappe, hvor du vil gemme dine e-mails.\n"
+
+#: gmail-backup-gui.py:399
+msgid "Invalid input data"
+msgstr ""
+
+#: gmail-backup-gui.py:413
+msgid "Processed %.2fMB, speed %.1fKB/s"
+msgstr "Gennemført %.2fMB, hastighed %.1fKB/s"
+
+#: gmail-backup-gui.py:421
+msgid "Select a directory for Gmail Backup"
+msgstr "Vælg en anden mappe til Gmail Backup"
+
+#: gmail-backup-gui.py:520
+msgid "Interrupting ..."
+msgstr "Afbryder ..."
+
+#: gmail-backup-gui.py:565
+#, fuzzy
+msgid "&Stop"
+msgstr "Stop"
+
+#: gmail-backup-gui.py:565
+#, fuzzy
+msgid "Stop backing up or restoring emails"
+msgstr "Der opstod en fejl under genetablering af e-mail"
+
+#: gmail-backup-gui.py:568
+#, fuzzy
+msgid "&Quit"
+msgstr "Afslut"
+
+#: gmail-backup-gui.py:568
+msgid "Terminate the program"
+msgstr ""
+
+#: gmail-backup-gui.py:571
+#, fuzzy
+msgid "&Check new versions"
+msgstr "Opdatering"
+
+#: gmail-backup-gui.py:571
+msgid "Check new versions of this program"
+msgstr ""
+
+#: gmail-backup-gui.py:574
+msgid "&About"
+msgstr ""
+
+#: gmail-backup-gui.py:574
+msgid "More information about this program"
+msgstr ""
+
+#: gmail-backup-gui.py:577
+msgid "&Commands"
+msgstr ""
+
+#: gmail-backup-gui.py:578
+msgid "&Help"
+msgstr ""
+
+#: gmb.py:115
+msgid "<unparseable header>"
+msgstr "<unparseable header>"
+
+#: gmb.py:315
+msgid "GMail Backup revision %s (%s)"
+msgstr "GMail Backup revision %s (%s)"
+
+#: gmb.py:346
+msgid "%1.fKB/s (total: %.2fMB)"
+msgstr "%1.fKB/s (total: %.2fMB)"
+
+#: gmb.py:352
+msgid "Starting backup of account %s into %s"
+msgstr "Starter backup af kontoen %s til %s"
+
+#: gmb.py:354
+msgid "Ending backup of account %s"
+msgstr "Afslutter backup af %s"
+
+#: gmb.py:360
+msgid "Restoring the content of account %s from %s"
+msgstr "Genetablere indholdet af kontoen %s fra %s"
+
+#: gmb.py:362
+msgid "End of restoring of account %s"
+msgstr "Genetablering af %s er færdig"
+
+#: gmb.py:366
+msgid "Clearing the content of account %s"
+msgstr "Fjerner indholde på %s"
+
+#: gmb.py:368
+msgid "End of clearing of account %s"
+msgstr "Færdig med at fjerne indholdet på %s"
+
+#: gmb.py:372
+msgid "Stored %4.1f%%: %s - %s"
+msgstr "Gemt %4.1f%%: %s - %s"
+
+#: gmb.py:376
+msgid "Skip   %4.1f%%: message already stored (%d of %d)"
+msgstr "Spring over   %4.1f%%: beskeden er allerede gemt (%d af %d)"
+
+#: gmb.py:380
+msgid "Restored %4.1f%%: %s - %s"
+msgstr "Genetableret %4.1f%%: %s - %s"
+
+#: gmb.py:384
+msgid "Skipdate %4.1f%%: %s - %s"
+msgstr "Spring over datoen %4.1f%%: %s - %s"
+
+#: gmb.py:388
+msgid "Starting backup of labels"
+msgstr "Starter backup af labels"
+
+#: gmb.py:390
+msgid "Backup of labels ended"
+msgstr "Færdig med backup af labels"
+
+#: gmb.py:393
+msgid "Restoring labels, %.1f%%"
+msgstr "Genetablere labels, %.1f%%"
+
+#: gmb.py:396
+msgid "Error: %s"
+msgstr "Fejl: %s"
+
+#: gmb.py:404
+msgid ""
+"%s\n"
+"There are network problems, please, try it later"
+msgstr ""
+"%s\n"
+"Der er netværksproblemer, prøv venligst igen senere"
+
+#: gmb.py:406
+msgid "IMAP aborted the transfer"
+msgstr "IMAP afbryd overførslen"
+
+#: gmb.py:408
+msgid "IMAP: %s"
+msgstr "IMAP: %s"
+
+#: gmb.py:410
+msgid "Program interrupted by user"
+msgstr "Programmet blev afbrudt af brugeren"
+
+#: gmb.py:416
+msgid ""
+"Error occured, full traceback is bellow (gmb.py revision %s)\n"
+"%s"
+msgstr ""
+"Der opstod en fejl. Fuld traceback kan ses herunder (gmb.py revision %s)\n"
+"%s"
+
+#: gmb.py:420
+msgid ""
+"%s\n"
+"Ignoring this error message.\n"
+"If you want, please report the following traceback at www.gmail-backup.com/"
+"forum\n"
+"Thanks! (gmb.py revision %s):\n"
+"%s"
+msgstr ""
+"%s\n"
+"Ignorerer denne fejlmeddelse.\n"
+"Hivs du vil, må du meget gerne rapportere følgende traceback på www.gmail-"
+"backup.com/forum\n"
+"Tak! (gmb.py revision %s):\n"
+"%s"
+
+#: gmb.py:645
+msgid "Trying to reconnect (%d)"
+msgstr "Prøver at forbinde igen (%d)"
+
+#: gmb.py:652
+msgid "Reconnected!"
+msgstr "Forbundet!"
+
+#: gmb.py:657
+msgid "Not connected, sleeping for %d seconds"
+msgstr "Ikke forbundet, sover i %d seconds"
+
+#: gmb.py:663
+msgid "Unable to reconnect"
+msgstr "Ikke muligt at forbinde igen"
+
+#: gmb.py:739
+msgid "Network error occured, disconnected"
+msgstr "Netværks fejl opstod, forbindelsen er afbrudt"
+
+#: gmb.py:850 gmb.py:1104
+msgid "Error occured while reading e-mail from disc"
+msgstr "Der opstod en fejl, mens der blev læs e-mail fra disken"
+
+#: gmb.py:878
+msgid "Error while reading MessageID from stored message"
+msgstr "Der opstod en fejl under læsningen af MessageID fra den gemte besked"
+
+#: gmb.py:891
+msgid "Bad line in file with cached MessageIDs"
+msgstr "Forkert linie i filen med gemte MessageIDs"
+
+#: gmb.py:905
+msgid ""
+"Errorneous message in file: %s, please report it to <honza.svec@gmail.com>"
+msgstr ""
+"Fejlagtig besked i filen: %s, rapporter venligst dette til <honza.svec@gmail."
+"com>"
+
+#: gmb.py:1156
+msgid "Error occured while downloading e-mail"
+msgstr "Der opstod en fejl under downloadingen af en e-mail"
+
+#: gmb.py:1184
+msgid "Cannot backup the assignment of label: %s"
+msgstr "Kan ikke lave backup af tilknytningen på lablen: %s"
+
+#: gmb.py:1203
+msgid "Error while doing backup of label %r"
+msgstr "Der opstod en fejl under backup af label %r"
+
+#: gmb.py:1235
+msgid "Error while saving e-mail"
+msgstr "Der opstod en fejl under skrivningen af en gemt e-mail"
+
+#: gmb.py:1275
+msgid "Error while getting MessageID"
+msgstr "Der opstod en fejl under hentningen af MessageID"
+
+#: gmb.py:1284
+msgid "Error while restoring label %r"
+msgstr "Der opstod en fejl under genetableringen af labelet %r"
+
+#: gmb.py:1307
+msgid "Error while restoring e-mail"
+msgstr "Der opstod en fejl under genetablering af e-mail"
+
+#: gmb.py:1381
+msgid ""
+"New version of GMail Backup is available!\n"
+"You can download version %s here:\n"
+"%s"
+msgstr ""
+"Der er en ny version af GMail Backup tilgængelig!\n"
+"Du kan hente version %s her:\n"
+"%s"
+
+#: gmb.py:1383
+msgid "You are using the latest version of GMail Backup."
+msgstr "Du bruger den nyeste version af GMail Backup."

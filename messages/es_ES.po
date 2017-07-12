@@ -1,0 +1,382 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GmailBackup\n"
+"POT-Creation-Date: 2010-09-29 13:10+CEST\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Carlos Longarela <carlos@apl.lugo.usc.es>\n"
+"Language-Team: Carlos Longarela <carlos@variosweb.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: gmail-backup-gui.py:148
+msgid "Gmail Backup"
+msgstr "Gmail Backup"
+
+#: gmail-backup-gui.py:149
+msgid "(%.1f%%) Gmail Backup"
+msgstr "(%.1f%%) Gmail Backup"
+
+#: gmail-backup-gui.py:163
+msgid "revision %s (%s)"
+msgstr "revisión %s (%s)"
+
+#: gmail-backup-gui.py:165
+msgid ""
+"Gmail login:\n"
+"(full email address)"
+msgstr ""
+"usuario de Gmail:\n"
+"(dirección de mail completa)"
+
+#: gmail-backup-gui.py:168
+msgid "Gmail password:"
+msgstr "clave de Gmail:"
+
+#: gmail-backup-gui.py:171
+msgid "Backup folder:"
+msgstr "Carpeta de Backup:"
+
+#: gmail-backup-gui.py:174
+msgid ""
+"You can use following forms:\n"
+"  directory\n"
+"  filename.zip\n"
+"  directory#template\n"
+"  filename.zip#template\n"
+"\n"
+"In the template you can use following variables, which will be substituted "
+"with values in the stored message:\n"
+"  $YEAR, $MONTH, $DAY\n"
+"  $HOUR, $MINUTE, $SECOND\n"
+"  $FROM, $SUBJ\n"
+"\n"
+"You can write them either as $YEAR or ${YEAR}."
+msgstr ""
+"Puede usar las sisguientes formas:\n"
+"  directorio\n"
+"  archivo.zip\n"
+"  directorio#platilla\n"
+"  archivo.zip#plantilla\n"
+"\n"
+"In the template you can use following variables, which will be substituted "
+"with values in the stored message:\n"
+"  $YEAR, $MONTH, $DAY\n"
+"  $HOUR, $MINUTE, $SECOND\n"
+"  $FROM, $SUBJ\n"
+"\n"
+"Puede escribirlas como $YEAR o ${YEAR}."
+
+#: gmail-backup-gui.py:186
+msgid "&Directory"
+msgstr "&Directorio"
+
+#: gmail-backup-gui.py:189
+msgid ""
+"Newest\n"
+"emails\n"
+"only"
+msgstr ""
+"Sólo\n"
+"emails\n"
+"nuevos"
+
+#: gmail-backup-gui.py:191
+msgid "Newest emails only"
+msgstr "Sólo emails nuevos"
+
+#: gmail-backup-gui.py:194
+msgid "Since date:"
+msgstr "Desde la fecha:"
+
+#: gmail-backup-gui.py:198
+msgid "Before date:"
+msgstr "Hasta la fecha:"
+
+#: gmail-backup-gui.py:210
+msgid "&Backup"
+msgstr "&Backup"
+
+#: gmail-backup-gui.py:211
+msgid "&Restore"
+msgstr "&Restaurar"
+
+#: gmail-backup-gui.py:212
+msgid "Stop"
+msgstr "Parar"
+
+#: gmail-backup-gui.py:216
+msgid "New Versions"
+msgstr "Nuevas Versiones"
+
+#: gmail-backup-gui.py:217
+msgid "Quit"
+msgstr "Salir"
+
+#: gmail-backup-gui.py:392
+msgid "Enter valid email adress which you want to backup.\n"
+msgstr "Introduzac una dirección válida de email para realizar el backup.\n"
+
+#: gmail-backup-gui.py:394
+msgid "Enter valid password for your gmail account.\n"
+msgstr "Introduzca una clave válida de su cuenta de gmail.\n"
+
+#: gmail-backup-gui.py:396
+msgid "Enter folder where you want to store your emails.\n"
+msgstr "Introduzca la carpeta donde quiere guardar sus emails.\n"
+
+#: gmail-backup-gui.py:399
+msgid "Invalid input data"
+msgstr ""
+
+#: gmail-backup-gui.py:413
+msgid "Processed %.2fMB, speed %.1fKB/s"
+msgstr "Procesados %.2fMB, velocidad %.1fKB/s"
+
+#: gmail-backup-gui.py:421
+msgid "Select a directory for Gmail Backup"
+msgstr "Seleccione un directorio parala copia de Gmail"
+
+#: gmail-backup-gui.py:520
+msgid "Interrupting ..."
+msgstr "Interrumpiendo ..."
+
+#: gmail-backup-gui.py:565
+#, fuzzy
+msgid "&Stop"
+msgstr "Parar"
+
+#: gmail-backup-gui.py:565
+#, fuzzy
+msgid "Stop backing up or restoring emails"
+msgstr "Error mientras se restauraba el e-mail"
+
+#: gmail-backup-gui.py:568
+#, fuzzy
+msgid "&Quit"
+msgstr "Salir"
+
+#: gmail-backup-gui.py:568
+msgid "Terminate the program"
+msgstr ""
+
+#: gmail-backup-gui.py:571
+#, fuzzy
+msgid "&Check new versions"
+msgstr "Nuevas Versiones"
+
+#: gmail-backup-gui.py:571
+msgid "Check new versions of this program"
+msgstr ""
+
+#: gmail-backup-gui.py:574
+msgid "&About"
+msgstr ""
+
+#: gmail-backup-gui.py:574
+msgid "More information about this program"
+msgstr ""
+
+#: gmail-backup-gui.py:577
+msgid "&Commands"
+msgstr ""
+
+#: gmail-backup-gui.py:578
+msgid "&Help"
+msgstr ""
+
+#: gmb.py:115
+msgid "<unparseable header>"
+msgstr "<cabecera no parseable>"
+
+#: gmb.py:315
+msgid "GMail Backup revision %s (%s)"
+msgstr "Revisión de GMail Backup %s (%s)"
+
+#: gmb.py:346
+msgid "%1.fKB/s (total: %.2fMB)"
+msgstr "%1.fKB/s (total: %.2fMB)"
+
+#: gmb.py:352
+msgid "Starting backup of account %s into %s"
+msgstr "Comenzando backup de la cuenta %s en %s"
+
+#: gmb.py:354
+msgid "Ending backup of account %s"
+msgstr "Finalizado backup de la cuenta %s"
+
+#: gmb.py:360
+msgid "Restoring the content of account %s from %s"
+msgstr "Restaurando el contenido de la cuenta %s desde %s"
+
+#: gmb.py:362
+msgid "End of restoring of account %s"
+msgstr "Fin de la restauración de la cuenta %s"
+
+#: gmb.py:366
+msgid "Clearing the content of account %s"
+msgstr "Borrando el contenido de la cuenta %s"
+
+#: gmb.py:368
+msgid "End of clearing of account %s"
+msgstr "Fin del borrado de la cuenta %s"
+
+#: gmb.py:372
+msgid "Stored %4.1f%%: %s - %s"
+msgstr "Guardado %4.1f%%: %s - %s"
+
+#: gmb.py:376
+msgid "Skip   %4.1f%%: message already stored (%d of %d)"
+msgstr "Saltado   %4.1f%%: mensaje ya guardado (%d de %d)"
+
+#: gmb.py:380
+msgid "Restored %4.1f%%: %s - %s"
+msgstr "Restaurado %4.1f%%: %s - %s"
+
+#: gmb.py:384
+msgid "Skipdate %4.1f%%: %s - %s"
+msgstr "Skipdate %4.1f%%: %s - %s"
+
+#: gmb.py:388
+msgid "Starting backup of labels"
+msgstr "Comenzado backup de etiquetas"
+
+#: gmb.py:390
+msgid "Backup of labels ended"
+msgstr "Backup de etiquetas finalizado"
+
+#: gmb.py:393
+msgid "Restoring labels, %.1f%%"
+msgstr "Restaurando etiquetas, %.1f%%"
+
+#: gmb.py:396
+msgid "Error: %s"
+msgstr "Error: %s"
+
+#: gmb.py:404
+msgid ""
+"%s\n"
+"There are network problems, please, try it later"
+msgstr ""
+"%s\n"
+"Hay errores de res, por favor, inténtelo más tarde"
+
+#: gmb.py:406
+msgid "IMAP aborted the transfer"
+msgstr "IMAP abortada la transferencia"
+
+#: gmb.py:408
+msgid "IMAP: %s"
+msgstr "IMAP: %s"
+
+#: gmb.py:410
+msgid "Program interrupted by user"
+msgstr "Programa interumpido por el usuario"
+
+#: gmb.py:416
+msgid ""
+"Error occured, full traceback is bellow (gmb.py revision %s)\n"
+"%s"
+msgstr ""
+"Error ocurrido, traza completa abajo (gmb.py revisión %s)\n"
+"%s"
+
+#: gmb.py:420
+msgid ""
+"%s\n"
+"Ignoring this error message.\n"
+"If you want, please report the following traceback at www.gmail-backup.com/"
+"forum\n"
+"Thanks! (gmb.py revision %s):\n"
+"%s"
+msgstr ""
+"%s\n"
+"Ignorando este mensaje de error.\n"
+"Si lo desea, por favor envíe la siguiente traza a www.gmail-backup.com/"
+"forum\n"
+"¡Gracias! (gmb.py revisión %s):\n"
+"%s"
+
+#: gmb.py:645
+msgid "Trying to reconnect (%d)"
+msgstr "Intentando reconectar (%d)"
+
+#: gmb.py:652
+msgid "Reconnected!"
+msgstr "¡Reconectado!"
+
+#: gmb.py:657
+msgid "Not connected, sleeping for %d seconds"
+msgstr "No conectado, esperando por %d segundos"
+
+#: gmb.py:663
+msgid "Unable to reconnect"
+msgstr "Imposible reconectar"
+
+#: gmb.py:739
+msgid "Network error occured, disconnected"
+msgstr "Error de res, desconectado"
+
+#: gmb.py:850 gmb.py:1104
+msgid "Error occured while reading e-mail from disc"
+msgstr "Error ocurrido mientras se leía el e-mail desde el disco"
+
+#: gmb.py:878
+msgid "Error while reading MessageID from stored message"
+msgstr "Error mientras se leía el MessageID del mensaje guardado"
+
+#: gmb.py:891
+msgid "Bad line in file with cached MessageIDs"
+msgstr "Línea incorrecta en archivo con MessageIDs cacheado"
+
+#: gmb.py:905
+msgid ""
+"Errorneous message in file: %s, please report it to <honza.svec@gmail.com>"
+msgstr ""
+"Mensaje erróneo en el archivo: %s, por favor, comuníquelo a  <honza."
+"svec@gmail.com>"
+
+#: gmb.py:1156
+msgid "Error occured while downloading e-mail"
+msgstr "Error ocurrido mientras se descargaba el e-mail"
+
+#: gmb.py:1184
+msgid "Cannot backup the assignment of label: %s"
+msgstr "No se puede hacer backup de la asignación de etiqueta: %s"
+
+#: gmb.py:1203
+msgid "Error while doing backup of label %r"
+msgstr "Error mientras se hacía backup de la etiqueta %r"
+
+#: gmb.py:1235
+msgid "Error while saving e-mail"
+msgstr "Error mientras se guardaba el e-mail"
+
+#: gmb.py:1275
+msgid "Error while getting MessageID"
+msgstr "Error mientras se obtenía el MessageID"
+
+#: gmb.py:1284
+msgid "Error while restoring label %r"
+msgstr "Error mientras se restauraba la etiqueta %r"
+
+#: gmb.py:1307
+msgid "Error while restoring e-mail"
+msgstr "Error mientras se restauraba el e-mail"
+
+#: gmb.py:1381
+msgid ""
+"New version of GMail Backup is available!\n"
+"You can download version %s here:\n"
+"%s"
+msgstr ""
+"Nueva versión de GMail Backup disponible!\n"
+"Puede descargar la versión %s aquí:\n"
+"%s"
+
+#: gmb.py:1383
+msgid "You are using the latest version of GMail Backup."
+msgstr "Está usando la última versión de GMail Backup."
