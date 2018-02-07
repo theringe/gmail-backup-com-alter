@@ -61,8 +61,8 @@ try:
 except ImportError:
     from md5 import md5
 
-GMB_REVISION = u'-Revision: 12345 -'  # Changed manually as I do not have access to the SVN repository. I preferred "20a", but that makes the program fail. And I don't want to mess with the official revision range.
-GMB_DATE = u'-Date: 2017-07-12 -'  # Changed manually as I do not have access to the SVN repository.
+GMB_REVISION = u'-Revision: 12346 -'  # Changed manually as I do not have access to the SVN repository. I preferred "20a", but that makes the program fail. And I don't want to mess with the official revision range.
+GMB_DATE = u'-Date: 2018-02-06 -'  # Changed manually as I do not have access to the SVN repository.
 
 GMB_REVISION = GMB_REVISION[11:-2]
 GMB_DATE = GMB_DATE[7:-2].split()[0]
@@ -202,6 +202,38 @@ def _shiftDates(min_date, max_date):
     min_t = _trimDate(min_t)
     max_t = _trimDate(max_t)
     return min_t, max_t
+
+def _gmailTime2Internaldate(date_time):
+
+    _month_names = [None, 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+        'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+
+    """Convert date_time to IMAP4 INTERNALDATE representation.
+
+    Gmail no longer expects a time and timezone, so only the date is returned
+    See discussion at https://bugs.python.org/issue11024
+    Fixes https://github.com/akarshsatija/gmail-backup-com/issues/29 and
+    https://groups.google.com/forum/#!topic/gmail-backup-com-users/dBPuAoFS5Zk
+
+    Return string in form: '"DD-Mmm-YYYY"'.  The
+    date_time argument can be a number (int or float) representing
+    seconds since epoch (as returned by time.time()), a 9-tuple
+    representing local time (as returned by time.localtime()), or a
+    double-quoted string.  In the last case, it is assumed to already
+    be in the correct format.
+    """
+
+    if isinstance(date_time, (int, long, float)):
+        tt = time.localtime(date_time)
+    elif isinstance(date_time, (tuple, time.struct_time)):
+        tt = date_time
+    elif isinstance(date_time, str) and (date_time[0],date_time[-1]) == ('"','"'):
+        return date_time        # Assume in correct format
+    else:
+        raise ValueError("date_time not of a known type")
+
+    return ('"%02d-%s-%04d"' %
+        ((tt[2], _month_names[tt[1]], tt[0])))
 
 def imap_decode(s):
     def sub(m):
@@ -1351,8 +1383,8 @@ class GMailBackup(object):
 
         if dates:
             min_date, max_date = _shiftDates(min(dates), max(dates))
-            min_date = imaplib.Time2Internaldate(min_date)
-            max_date = imaplib.Time2Internaldate(max_date)
+            min_date = _gmailTime2Internaldate(min_date)
+            max_date = _gmailTime2Internaldate(max_date)
             assignment = storage.getLabelAssignment()
             self.restoreLabels(assignment, min_date, max_date)
         self.notifier.nRestore(True, self.username, fn)
